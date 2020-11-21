@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Список</title>
+       </head>
+       <body>
+        <form>
+         <fieldset>
+             <legend>Регистрационная форма пользователя</legend>
+             <p><strong>Имя</strong></p>
+             <input tupe="text">
+             <p><strong>Укажите возраст</strong></p>
+             <input tupe="text" list="age">
+                <datalist id="age">
+                    <option value="10-15">
+                    <option value="15-20">
+                    <option value="20-30">
+                    <option value="30-40">
+                </datalist>
+                 <p class="question">Укажите пол</p>
+                 <p><input type="radio" name="game" value="1"> Мужской</p>
+                 <p><input type="radio" name="game" value="2"> Женский</p>
+                <p><Strong> Страна проживания></strong></p>
+             <select>
+                <option selected value="s1">Беларусь</option>
+                <option value="s2">Беларусь</option>
+                <option value="s3">Российская федерация</option>
+                <option value="S4">Другое государство</option>
+             </select>
+                 <p class="question">Владение языками</p>
+                 <p><input type="radio" name="game" value="1"> Русский</p>
+                 <p><input type="radio" name="game" value="2"> Беларусский</p>
+                 <p><input type="radio" name="game" value="2"> Английский</p>
+                 <p class="question">Фото профиля</p>
+                 <p><input name="login"></p>
+                 <button type="reset">Надпись на кнопке</button>
+        </fieldset>
+        </form>
+</body>
+</html>
