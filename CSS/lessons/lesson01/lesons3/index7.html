@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       td>textarea:hover {
+        box-shadow: 0px 0px 10px orange;  
+       }
+       /* td>textarea:hover {
+        box-shadow: none;  
+       } */
+    </style>
+    <style type="text/css">
+        caption {font-size:30px}
+        caption.big {font-size:50px}
+    </style>
+</head>
+<body>
+    <table  align="center" border="1"cellspacing="0" cellpadding="3">
+            <caption>Анкета</caption>
+              <tr>
+                <td>Фамилия</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Имя</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Отчество</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Пол</td>
+                <td>
+                    <input type="radio" name="sex" value="мужской">Мужской
+                    <br>
+                    <input type="radio" name="sex" value="женский">Женский
+                </td>
+              </tr>
+              <tr>
+                <td>Дата рождения</td>
+                <td>
+                    <input type="date">
+                </td>
+              </tr>
+              <tr>
+                <td>Владею языками</td>
+                <td>
+                    <p><input type="checkbox" name="lang" value="1"> Беларусский</p>
+                    <p><input type="checkbox" name="lang" value="2"> Русский</p>
+                    <p><input type="checkbox" name="lang" value="3"> Английский</p>
+                    <p><input type="checkbox" name="lang" value="4"> Китайский</p>
+                 
+                </td>
+              </tr>
+              <tr>
+                <td>Адресс места жительства(пребывания)</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                    <button>Отправить данные</button>
+                  </td>
+              </tr>
+    </table>
+    <footer align="center">
+        <p>lexa privet !!!)))))))</p>
+
+    </footer>
+</body>
+</html>
