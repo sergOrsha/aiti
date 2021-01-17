@@ -15,10 +15,12 @@
     border: 2px solid orange;
 }
 .div_3:hover {
+    opacity:0,3;
     width: 70px;
     height:50px ;
     background: radial-gradient(45deg, #0000ff, #ffffff);
     padding: 5px;
+    float: right;
     margin: 2px;
-    opacity:0,3;
+    border: 2px solid rgb(47, 36, 212);
 }
