@@ -1,0 +1,51 @@
+element.style {
+}
+@media screen and (max-width: 980px)
+.t446__logowrapper2 {
+    display: block;
+    position: static;
+}
+.t446__logowrapper2 {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: -50%;
+    z-index: 100;
+}
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+@media screen and (max-width: 980px)
+.t446 {
+    position: static;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto!important;
+}
+#allrecords {
+    -webkit-font-smoothing: antialiased;
+    background-color: #a6ffa6;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
