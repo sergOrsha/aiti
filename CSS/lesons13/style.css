@@ -1,0 +1,8 @@
+.header {
+    grid-column:100%;
+    background-color: red;
+}
+.menu {
+    grid-row-end: 20%;
+    background-color: blue; 
+}
