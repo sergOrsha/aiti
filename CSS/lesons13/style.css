@@ -1,8 +1,35 @@
+.container {
+    
+}
 .header {
     grid-column:100%;
     background-color: red;
+    display: flex;
+    border-radius:10px;
+    justify-content:center;
+    align-items:center;
 }
 .menu {
     grid-row-end: 20%;
     background-color: blue; 
+    display: flex;
+    border-radius:10px;
+    justify-content:right;
+    align-items:center;
+}
+.content {
+    grid-row-end: 1/2;
+    background-color: rgb(59, 248, 59);
+    display: flex;
+    border-radius:10px;
+    justify-content:left;
+    align-items:center;
+}
+.footer {
+    grid-row-end: end;
+    background-color: rgb(214, 241, 90);
+    display: flex;
+    border-radius:10px;
+    justify-content:end;
+    align-items:center;
 }
