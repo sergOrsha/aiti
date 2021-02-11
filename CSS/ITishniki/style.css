@@ -7,7 +7,6 @@
 }
 
 body {
-    background: #E5E5E5;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -24,6 +23,9 @@ html {
     max-width: 1920px;
     margin: auto;
     background-color: blanchedalmond;
+}
+.wrapper {
+    margin: o auto;
 }
 /* header styles start*/
 .header {
@@ -69,8 +71,49 @@ html {
 
     /* intro styles start*/
 .intro {
-    height: 100%;
+    min-height: 100%;
     background: url(./img/imgbg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 359px;
+}
+.intro_title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.intro_subtitle {
+    max-width: 546px;
+    color: chartreuse;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+.search_submit {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+
+}
+.search_submit:hover, .search_submit:focus, .search_submit:active {
+    background:#205edc;
 }
     /* intro styles end*/
+
+    /* mobi styles start*/
+    .mobi_wrap {
+        max-width: 1262px;
+        background-color: white;
+        margin: 0 auto;
+    }
+    .mobi_card {
+        height: 30vh;
+    }
+    /* mobi styles end*/
