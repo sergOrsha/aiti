@@ -1,67 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Передовая IT студия</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="wrapper">
-    <div class="layout_wrapper">
 
-        <!-- header styles start -->
-
+<body>
+    <div class="container">
         <header class="header">
-            <nav>
-                <ul>
-                    <li class="menu-item"><a href=""class="menu-link">Главная</a></li>
-                    <li class="menu-item"><a href=""class="menu-link">Наши проекты</a></li>
-                    <li class="menu-item"><a href=""class="menu-link">Услуги</a></li>
-                    <li class="menu-item"><a href=""class="menu-link">Новости</a></li>
-                    <li class="menu-item"><a href=""class="menu-link">Контакты</a></li>
+            <nav class="header-nav padding-site">
+                <ul class="menu">
+                    <li class="menu-list">
+                        <a href="#main" class="menu-link menu-link-active js-scroll">Главная</a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="#projects" class="menu-link js-scroll">Наши&nbsp;проекты</a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="#services" class="menu-link js-scroll">Услуги</a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="#all" class="menu-link js-scroll">Новости</a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="#contacts" class="menu-link js-scroll">Контакты</a>
+                    </li>
                 </ul>
+                <div class="header-burger burger">
+                    <span class="burger-line burger-line-first"></span>
+                    <span class="burger-line burger-line-second"></span>
+                    <span class="burger-line burger-line-third"></span>
+                </div>
+                <div class="header-nav-close">
+                    <span class="header-nav-close-line"></span>
+                    <span class="header-nav-close-line"></span>
+                </div>
             </nav>
+            <hr class="line">
         </header>
-
-        <!-- header styles end -->
-
-        <!-- intro styles start -->
-
-            <main class="main">
-                <section class="intro">
-                    <div class="wraper">
-                        <h1 class="intro_title">
-                            Мы создаем легкие решения 
-                            сложных задач и проблем 
-                        </h1>
-                        <p class="intro_subtitle">
-                            Передовая IT студия
-                        </p>
-                        <button type="submit" class="search_submit">
-                            Наши проекты
-                        </button>
-                    </div>
-                </section>
-                <!-- intro styles end -->
-
-                <!-- mobi styles start -->
-
-                <section class="mobi">
-                    <div class="mobi_wrap">
-                        <h2 class="mobi_title">
-                            Мы создаем мобильные приложения для крупных компаний
-                        </h2>
-                        <div class="mobi_card">
-                            <div class="mobi_card"></div>
-                            <div class="mobi_card"></div>
-                            <div class="mobi_card"></div>
+        <main>
+            <div class="intro padding-site" id="main">
+                <p class="intro-subtitle white-subtitle">
+                    Передовая IT студия
+                </p>
+                <h1 class="intro-title white-big-title">
+                    Мы создаем легкие решения сложных задач и проблем
+                </h1>
+                <p class="intro-button button">
+                    <a href="#" class="link">
+                        Наши проекты
+                    </a>
+                </p>
+            </div>
+            <section class="services padding-site" id="services">
+                <h2 class="services-title black-title">
+                    Мы создаем мобильные приложения для крупных корпораций
+                </h2>
+                <p class="services-subtitle black-subtitle">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+                <div class="services-row">
+                    <div class="services-column">
+                        <a href="#">
+                            <div class="services-icon-circle">
+                                <div class="services-icon-ellipse">
+                                    <img src="img/svg/project.svg" alt="project" class="services-img">
+                                </div>
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="services-small-title small-title">
+                                Создание сайтов
+                            </h3>
+                            <p class="services-small-subtitle small-subtitle">
+                                Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                            </p>
                         </div>
                     </div>
-                </section>
-
-                <!-- mobi styles end -->
-
-            </main>
+                    <div class="services-column">
+                        <a href="#">
+                            <div class="services-icon-circle">
+                                <div class="services-icon-ellipse">
+                                    <img src="img/svg/project.svg" alt="project" class="services-img">
+                                </div>
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="services-small-title small-title">
+                                Создание сайтов
+                            </h3>
+                            <p class="services-small-subtitle small-subtitle">
+                                Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services-column">
+                        <a href="#">
+                            <div class="services-icon-circle">
+                                <div class="services-icon-ellipse">
+                                    <img src="img/svg/project.svg" alt="project" class="services-img">
+                                </div>
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="services-small-title small-title">
+                                Создание сайтов
+                            </h3>
+                            <p class="services-small-subtitle small-subtitle">
+                                Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="services-button button">
+                    <a href="#" class="link">
+                        Все услуги
+                    </a>
+                </p>
+            </section>
+        </main>
     </div>
 </body>
+
 </html>
