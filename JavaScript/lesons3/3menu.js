@@ -3,4 +3,4 @@
 let a = "час";
 let b = "минута";
 let c = "секунда";
-alert(a:b:c) ;
+alert(a+b+c) ;
